@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="cucumber.framework.runner.jcadmin.JCAdminRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 116 117 118 119 120 121 122 123 124"/>
+        </methods>
+      </class> <!-- cucumber.framework.runner.jcadmin.JCAdminRunner -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
